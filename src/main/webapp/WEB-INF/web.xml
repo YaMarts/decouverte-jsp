@@ -4,18 +4,18 @@
 	version="3.1">
 	<servlet>
 		<servlet-name>HelloWorld</servlet-name>
-		<servlet-class>co.simplon.poleEmploi.decouverteServlets.HelloWorld</servlet-class>
+		<servlet-class>co.simplon.poleEmploi.decouverte.jsp.HelloWorld</servlet-class>
 	</servlet>
 
 	<servlet>
 		<servlet-name>ByeWorld</servlet-name>
-		<servlet-class>co.simplon.poleEmploi.decouverteServlets.ByeWorld</servlet-class>
+		<servlet-class>co.simplon.poleEmploi.decouverte.jsp.ByeWorld</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>HelloWorld</servlet-name>
 		<url-pattern>/bonjour</url-pattern>
-	</servlet-mapping>
+			</servlet-mapping>
 
 	<servlet-mapping>
 		<servlet-name>ByeWorld</servlet-name>
